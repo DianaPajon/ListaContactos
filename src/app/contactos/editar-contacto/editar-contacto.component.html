@@ -1,9 +1,9 @@
 <div class="container">
-    <div class="row mt-4">
+    <div class="row mt-4 mb-4">
             <h5 class="titulo">{{titulo}}</h5>
     </div>
-        <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
-            <div class="mt-4 form">
+    <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+        <div class="mt-4 form">
 
             <div class="form-group">
                 <label class="etiqueta-chica" for="nombre">nombre</label>
@@ -26,12 +26,12 @@
             </div>
         </div>
 
-            <div class=" mt-4">
-                <button type="submit" class="btn btn-primary boton" [disabled]="!formGroup.valid">ENVIAR</button>
-                <button [routerLink]="['']" class="btn btn-secondary boton">CANCELAR</button>
-            </div>
-                
-        </form>
+        <div class=" mt-4">
+            <button type="submit" class="btn btn-primary boton" [disabled]="!formGroup.valid">ENVIAR</button>
+            <button [routerLink]="['/']" class="btn btn-secondary boton">CANCELAR</button>
+        </div>
+            
+    </form>
         
     
 </div>
