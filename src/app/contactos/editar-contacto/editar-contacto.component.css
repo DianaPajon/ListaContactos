@@ -1,0 +1,26 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.etiqueta-chica{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton{
+    font-size: small;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.error{
+    font-weight: bold ;
+    font-family: sans-serif;
+    color: orange;
+}
+
+.form{
+    padding-left: 2em;
+}
